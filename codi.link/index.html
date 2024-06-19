@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+/>
+
+<main class="container">
+  <form id="form">
+    <label>
+      Ip del usuario
+      <input required placeholder="Introduce tu ip aqui" id="input">
+      <small>Por ejemplo: 4.4.4.4</small>
+    </label>
+    <button type="submit" id="submit">
+      Buscar informacion de esta ip
+    </button>
+
+  </form>
+
+  <div>
+    <pre id="results">
+
+    </pre>
+  </div>
+</main>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
